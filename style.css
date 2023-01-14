@@ -35,11 +35,18 @@ header{
     display: flex;
 }
 .container ul li{
-    padding:0px 30px;
+    padding:10px 30px;
+    border-radius: 30px;
     list-style: none;
     color: #424242;
     font-weight: 500;
     font-size: 18px;
+}
+.container ul li:hover{
+    background-color: var(--btn-color);
+    border: none;
+    color: white;
+    transition: 0.3s;
 }
 
 /* banner section style */
@@ -78,6 +85,11 @@ header{
     font-size: 20px;
     padding: 19px 26px;
     margin-bottom: 50px;
+    transition: .4s;
+}
+.banner-btn:hover{
+    transform:scale(1.1) translateY(5px);
+    cursor: pointer;
 }
 .banner-img img{
     width: 100%;
@@ -134,6 +146,11 @@ header{
     font-weight: 600;
     font-size: 20px;
     padding: 19px 26px;
+    transition: .5s;
+}
+.btn:hover{
+    transform:scale(1.1) translateY(5px);
+    cursor: pointer;
 }
 /* feature section style */
 .feature-section{
@@ -164,8 +181,13 @@ header{
 }
 .feature{
     padding: 20px 15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     box-shadow: 0px 3px 32px -20px grey;
+    transition: transform 0.5s;
+}
+.feature:hover{
+    cursor: pointer;
+    transform: translate(-20px);
 }
 .feature-image{
     flex-basis: 50%;
