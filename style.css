@@ -224,6 +224,11 @@ header{
     width: 200px;
     height: 200px;
     border: 1px solid #FF900E;
+    cursor: pointer;
+    transition:transform 0.5s;
+}
+.testimonial:hover{
+    transform:translateY(-15px)
 }
 .testimonial img{
     margin:30px 0px 8px 70px ;
@@ -275,7 +280,73 @@ header{
     height: auto;
     margin-left: 20px;
     filter: grayscale(100%);
+    transition: .5s;
 }
+.company img:hover{
+    filter: none;
+}
+
+
+/* contact-us-section */
+.contact-us-section{
+    width: 1080px;
+    margin: 100px auto auto 120px;
+}
+.contact-us-section h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-us-section p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.social{
+    flex-basis: 50%;
+}
+.social input, textarea{
+    width: 500px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(240, 236, 236);
+    padding: 20px 20px ;
+    margin-bottom: 35px;
+    box-shadow: 0px 3px 32px -15px grey;
+}
+.addres{
+    flex-basis: 50%;
+}
+.addres iframe{
+    width: 400px;
+}
+/* footer */
+footer{
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: var(--bg-color);
+    margin-bottom: 150px;
+}
+footer p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    padding: 20px ;
+}
+
+
 
 
 
