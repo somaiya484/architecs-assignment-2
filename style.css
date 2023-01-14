@@ -136,39 +136,146 @@ header{
     padding: 19px 26px;
 }
 /* feature section style */
-.feature section{
+.feature-section{
     width: 1080px;
     margin: 140px auto auto auto;
 }
 .main-feature{
+    display: grid;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
+    margin-left: 20px
 }
 .feature-info{
     flex-basis: 50%;
-    margin-top: 39px;
-    margin-left: 30px;
-    margin-bottom: 38px;
+    margin: 39px 0px 38px 30px;
+    width: 586px;
 }
 .feature-info .feature-title{
     font-size: 35px;
     padding-left: 20px;
     border-left: 5px solid #FF900E;
+    margin-bottom: 10px;
+}
+.feature-description{
+    margin-bottom: 5px;
+}
+.feature{
+    padding: 20px 15px;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 32px -20px grey;
 }
 .feature-image{
     flex-basis: 50%;
 }
 .feature-image img{
-    width: 400px;
+    width: 450px;
     height: auto;
 }
-.feature-title{
-
+.fea-btn{
+    position: absolute;
+    width: 185px;
+    height: 120px;
+    /* margin-top: -99px;
+    margin-left: 680px; */
+    margin-top: -224px;
+    margin-left: 545px;
+    background-color: #FF900E;
+    border:  none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+.fea-btn strong{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 
+/* fact-section  style*/
+.fact-section{
+    width: 1080px;
+    margin: 100px auto auto 198px;
+}
+.fact-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* testimonial-section style */
+.testimonial-section{
+    width: 900px;
+    margin: 100px auto auto 230px;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+}
+.testimonial img{
+    margin:30px 0px 8px 70px ;
+}
+.testimonial h2{
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.testimonial p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
+/* Sponsors section style */
+.Sponsors-section{
+    width: 1080px;
+    margin: 100px auto auto auto;
+}
+.Sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-info{
+    margin-left: 20px;
+}
+.sponsor-info h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sponsor-info p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.company img{
+    padding: 20px 30px;
+    width: 120px;
+    height: auto;
+    margin-left: 20px;
+    filter: grayscale(100%);
+}
 
 
 
